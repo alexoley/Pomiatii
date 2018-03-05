@@ -1,0 +1,89 @@
+﻿        @font-face {
+        font-family: 'Kanyon';
+        src: url('fonts/Kanyon-Regular.ttf'); 
+        }    
+        body 
+       {
+        font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image:url('images/mashed.jpg');
+       }
+       #inner 
+       {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 15px; 
+        font-family:Kanyon;
+        font-size: 100px;
+        text-align: center;
+        }
+       #nav 
+       {
+           width:940px;
+           margin: auto;
+       }
+       #nav ul
+       {
+           padding: 0px;
+           list-style:none;
+       }
+       #nav ul li
+       {
+           float: left;
+           width: 130px;
+           margin: 3px;
+           display: block;
+           color: #000000;
+           text-decoration:none;
+           font-family:Kanyon;
+           border: 1px solid black;
+           padding: 5px;
+           position:relative;
+       }
+       #nav ul li a
+       {
+           color: #000000;
+           text-decoration:none;
+           font-family:Kanyon;
+           display: block;
+           padding: 5px;
+       }
+       #nav ul li a:hover
+       {
+           text-decoration:none;
+           font-family:Kanyon;
+           border: 2px solid #a8a7a7;
+           display: block;
+           padding: 5px;
+        }
+       #nav ul ul
+       {
+           display: none;
+       }
+       #nav ul li:hover > ul
+       {
+           display: block;
+
+       }
+       #nav ul ul ul
+       {
+           margin-left: 132px;
+           top: -4px;
+           position:absolute;
+       }   
+      li
+       {
+           font-size: 16px;
+       }
+      .cont
+      {
+          margin-top:150px;
+          position:absolute;
+          float:right;
+      }
+      .content1
+      {
+          float: inherit;
+          
+      }

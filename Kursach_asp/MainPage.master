@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainPage.master.cs" Inherits="MainPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="width:100%">
+            <p id="inner">ПОМЯТЫЙ</p>
+         </div>
+        <div id="nav">
+             <ul>
+                <li><a href="Main.aspx">Главная</a></li>
+                <li><a href="Edition.aspx">Издания</a>
+                    <ul>
+                         <a href="AddEdition.aspx">Добавление издания</a>
+                     </ul>
+                </li>
+                <li><a href="Subscriber.aspx">Подписчики</a>
+                    <ul>
+                         <a href="AddSubscriber.aspx">Добавление подписчика</a>
+                     </ul>
+                </li>
+                 <li><a href="PublishHouse.aspx">Издательства</a>
+                     <ul>
+                         <a href="AddPublishHouse.aspx">Добавление издательства</a>
+                     </ul>
+                </li>
+                 <li><a href="Sub.aspx">Оформление подписки</a></li>
+                 <li><a href="Genre.aspx">Жанры</a>
+                     <ul>
+                         <li>Журналов
+                            <ul>
+                                <li><a href="GEconomy.aspx">Экономика</a></li>
+                                <li><a href="GInformatic.aspx">Информатика</a></li>
+                                <li><a href="GFashion.aspx">Мода</a></li>
+                                <li><a href="GSport.aspx">Спорт</a></li>
+                                <li><a href="GTravel.aspx">Путешествия</a></li>
+                                <li><a href="GCulture.aspx">Культура</a></li>
+                             </ul>
+                         </li>
+                         <li>Газет
+                              <ul>
+                                <li><a href="GNNews.aspx">Новости</a></li>
+                                <li><a href="GNSport.aspx">Спорт</a></li>
+                               </ul>
+                         </li>
+                     </ul>
+                 </li>
+            </ul> 
+            </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    </form>
+</body>
+</html>

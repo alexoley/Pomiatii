@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+        <siteMapNode url="~/Main.aspx" title="Главная"  description="Main"/>
+        <siteMapNode url="~/Edition.aspx" title="Издания"  description="" />
+        <siteMapNode url="~/Subscriber.aspx" title="Подписчики"  description="" />
+        <siteMapNode url="~/PublishHouse.aspx" title="Издательства"  description="" />
+        <siteMapNode url="~/Sub.aspx" title="Оформление подписки"  description="" />
+        <siteMapNode url="~/Genre.aspx" title="Жанры"  description="" />
+    </siteMapNode>
+</siteMap>
